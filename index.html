@@ -67,17 +67,36 @@
 				<span class="image main"><img src="images/dna_stock_image.jpg" alt="Image of DNA" /></span>
 				<p>Here you can find a collection of my personal and academic projects!</p>
 
+                <!-- BRCA-TCGA Project -->
+				<div class="project">
+					<h3><i>TCGA Breast Cancer (BRCA) RNA-seq Analysis Pipeline</i></h3>
+					<span class="image main"><img src="images/survival_faceted_final.png"
+							alt="Screenshot of Survival Plots" /></span>
+					<p>This project analyzes RNA-seq data from The Cancer Genome Atlas (TCGA) Breast Cancer (BRCA)
+                        cohort to identify genes differentially expressed between tumor and normal samples.
+                        Using R/Bioconductor tools such as DESeq2 and clusterProfiler, the analysis includes data
+                        preprocessing, normalization, differential expression, and functional enrichment (GO/KEGG).
+                        Survival analysis was then performed to explore the prognostic value of top candidate genes.
+                        The pipeline demonstrates a complete end-to-end bioinformatics workflow from raw counts to
+                        biological interpretation.</p>
+					<a href="https://github.com/MerlinDassanayake/breast-cancer-transcriptomics" target="_blank"
+						class="button" style="margin-bottom: 40px">View on GitHub</a>
+				</div>
 				<!-- Soybean Project-->
 				<div class="project">
-					<h3><i>Soybean Project</i></h3>
+					<h3><i>Machine Learning Soybean Project</i></h3>
 					<span class="image main"><img src="images/soybean_screenshot.png"
 							alt="Screenshot of Soybean Project" /></span>
-					<p>This project focuses on predicting soybean grain yield (GY) using machine learning models.
-						The dataset, sourced from a study by de Oliveira et al. (2023), includes 40 soybean cultivars
-						and various farming conditions. The goal was to build predictive models to help farmers optimize
-						crop yield by identifying key factors such as cultivar type, plant height, and pod insertion.</p>
+					<p>
+                        This project applies supervised machine learning techniques to predict soybean yield (GY) based
+                        on agronomic and environmental variables. Using a dataset from <em>de Oliveira et al. (2023)</em>
+                        ,which includes 40 cultivars under diverse farming conditions, multiple regression and tree-based
+                        models were trained and evaluated to identify the most influential features affecting yield.
+                        The goal is to develop data-driven insights that help optimize crop productivity and resource
+                        management in agricultural settings.
+                    </p>
 					<a href="https://github.com/MerlinDassanayake/soybean_grain_yield_prediction" target="_blank"
-						class="button">View on GitHub</a>
+						class="button" style="margin-bottom: 40px">View on GitHub</a>
 				</div>
 			</article>
 
